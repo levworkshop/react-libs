@@ -9,7 +9,7 @@ function Form() {
         },
 
         onSubmit: values => {
-            // do something on submit...
+            // do something on submit
             console.log(values);
         }
     });
