@@ -32,6 +32,8 @@ function Form() {
         onSubmit: values => {
             // do something on submit
             console.log(values);
+
+            formik.resetForm();
         }
     });
 
